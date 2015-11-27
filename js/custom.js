@@ -141,7 +141,7 @@ $(document).ready(function(e) {
 		function mapInitialize() {
 			var mapOptions = {
 				scrollwheel: false,
-				zoom: 12,
+				zoom: 15,
 				center: myLatlng
 			};
 			map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
