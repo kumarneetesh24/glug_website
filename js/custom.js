@@ -89,10 +89,13 @@ $(document).ready(function(e) {
 	function runCarousels() {
 		$('#slider-testimonial').owlCarousel({
 			singleItem: true,
+			slideSpeed:20
 		});
 		
 		$('#slider-blog-posts').owlCarousel({
 			items: 3,
+			autoPlay:true,
+			slideSpeed:20
 		});
 		
 		$('#team-slider').owlCarousel({
@@ -128,7 +131,11 @@ $(document).ready(function(e) {
 	        height:1200,   // slider standard height
 			view:'basic',
 			layout:'fullscreen',
-			speed:20
+			keyboard:true,
+			loop:true,
+			autoplay:true,
+			speed:20,
+			parallaxMode:"mouse"
 	    });
 		slider.control('bullets', {autohide:false});
 	}
