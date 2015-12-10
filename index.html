@@ -39,6 +39,11 @@
     
     <script type="text/javascript" src="js/modernizr.js"></script>
     <title>GLUG</title>
+    <style>
+    .modal-content {
+        margin-top: 200px;
+    }
+    </style>
 </head>
 
 <body>
@@ -67,9 +72,7 @@
                     <li>
                         <a class="scroll-to" href="#team">The Team</a>
                     </li>
-                    <li>
-                        <a class="scroll-to" href="#email">Talk to Us</a>
-                    </li>
+                    
 
 
                 </ul>
@@ -441,380 +444,445 @@
 
 
                     <div class="row">
-                        <a href="https://www.facebook.com/MEGAMIND.Namit?fref=ts">
                         <div class="col-sm-6 col-md-3">
                         <div class="thumbnail">
                         <img src="images/namit.jpg" height="200px" width="200px"  alt="Namit Mahuvakar"/>
                         <div class="caption">
                         <h3>Namit </br>Mahuvakar</h3>
                         <p>President</p>
+                        <a href="mailto:namit@nitdgplug.org"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.facebook.com/MEGAMIND.Namit" style="text-decoration: none;"><span class="fa fa-facebook"></span></a>
+                        &nbsp;&nbsp;
+                        <a href="tel:+919804022350"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></a>
                         </div>
                         </div>
                         </div>
-                        </a>
-                        <a href="https://www.facebook.com/sankarshan.purkayastha.nerdvana?fref=ts">
+                        
                         <div class="col-sm-6 col-md-3">
                         <div class="thumbnail">
                         <img src="images/sanki.jpg" width="200px" height="200px" alt="Sankarshan Purkayastha"/>
                         <div class="caption">
                         <h3>Sankarshan</br>Purkayastha</h3>
                         <p>General Secretary</p>
+                         <a href="mailto:sankarshan@nitdgplug.org"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.facebook.com/sankarshan.purkayastha.nerdvana?fref=grp_mmbr_list" style="text-decoration: none;"><span class="fa fa-facebook"></span></a>
+                        &nbsp;&nbsp;
+                        <a href="tel:+919663378704"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></a>
                         </div>
                         </div>
                         </div>
-                        </a>
-                        <a href="https://www.facebook.com/drsh.shah?fref=ts">
+                        
+                        
                         <div class="col-sm-6 col-md-3">
                         <div class="thumbnail">
                         <img src="images/adarsh.jpg" width="200px" height="200px" alt="Adarsh Shah"/>
                         <div class="caption">
                         <h3>Adarsh</br>Shah</h3>
                         <p>Treasurer</p>
+                         <a href="mailto:adarsh@nitdgplug.org"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.facebook.com/drsh.shah?fref=ufi" style="text-decoration: none;"><span class="fa fa-facebook"></span></a>
+                        &nbsp;&nbsp;
+                        <a href="tel:+919830993261"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></a>
                         </div>
                         </div>
                         </div>
-                        </a>
-                        <a href="https://www.facebook.com/arijit.karmakar.33?fref=ts">
+                        
+                      
                         <div class="col-sm-6 col-md-3">
                         <div class="thumbnail">
-                        <img src="images/arijit.jpg" width="200px" height="200px" alt="Arijit Karmakar"/>
+                        <img src="images/arijit.jpg" width="200px" height="200px" alt="Adarsh Shah"/>
                         <div class="caption">
                         <h3>Arijit</br>Karmakar</h3>
                         <p>Convenor</p>
+                         <a href="mailto:arijit@nitdgplug.org"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.facebook.com/arijit.karmakar.33?fref=grp_mmbr_list" style="text-decoration: none;"><span class="fa fa-facebook"></span></a>
+                        &nbsp;&nbsp;
+                        <a href="tel:+918609130588"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></a>
                         </div>
                         </div>
                         </div>
-                        </a>
+                        
                     </div>
 
 
-                        <div class="text-center onscroll-animate">
-                            <div class="filter-list">
-                                <div class="filter-item isotope-filter" data-filter="*">All</div>
-                                <div class="filter-item isotope-filter" data-filter=".work-tech">Technical</div>
-                                <div class="filter-item isotope-filter" data-filter=".work-man">Management</div>
-                                <div class="filter-item isotope-filter" data-filter=".work-photo">Artwork</div>
-                            </div>
-                        </div>
+                        
                         
                         <div id="works">
                             <div class="row">
+
                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm">
                         <img src="images/namit.jpg" height="70" width="70" style="border-radius:70px;"  alt="Namit Mahuvakar"/>
-                                        <h3>Namit Mahuvakar</h3>
+                                        <h3>Namit</br>Mahuvakar</h3>
                                         <p>President</p>
                                     </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-print">
-                                    <div class="onscroll-animate">
-                                        <img src="images/arijit.jpg" height="70" width="70" style="border-radius:70px;"  alt="Arijit Karmakar"/>
-                                        <h3>Arijit Karmakar</h3>
-                                        <p>Convenor</p>
                                     </div>
                                 </div>
+                                <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/namit.jpg" height="70" width="70" style="border-radius:70px;"  alt="Namit Mahuvakar"/>
+                                        <h3><a href="https://www.facebook.com/MEGAMIND.Namit" style="text-decoration: none;">Namit Mahuvakar</a></h3>
+                                        <p>President</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:namit@nitdgplug.org" style="text-decoration: none;">namit@nitdgplug.org</a></p>
+                                        <p><a href="tel:+919804022350" style="text-decoration: none;">+91 9804022350</a></p>
+                                        </div>
+                                        </div>
+                                </div>
 
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-photo">
+                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
-                                        <img src="images/sanki.jpg" height="70" width="70" style="border-radius:70px;" alt="Sankarshan Purkayastha"/>
-                                        <h3>Sankarshan Purkayastha</h3>
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm1">
+                        <img src="images/sanki.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sankarshan Purkayastha"/>
+                                        <h3>Sankarshan</br>Purkayastha</h3>
                                         <p>General Secretary</p>
                                     </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/sanki.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sankarshan Purkayastha"/>
+                                        <h3><a href="https://www.facebook.com/sankarshan.purkayastha.nerdvana?fref=grp_mmbr_list" style="text-decoration: none;">Sankarshan Purkayastha</a></h3>
+                                        <p>General Secretary</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:sankarshan@nitdgplug.org" style="text-decoration: none;">sankarshan@nitdgplug.org</a></p>
+                                        <p><a href="tel:+919663378704" style="text-decoration: none;">+91 9663378704</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm2">
                         <img src="images/adarsh.jpg" height="70" width="70" style="border-radius:70px;"  alt="Adarsh Shah"/>
-                                        <h3>Adarsh Shah</h3>
+                                        <h3>Adarsh</br>Shah</h3>
                                         <p>Treasurer</p>
                                     </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/adarsh.jpg" height="70" width="70" style="border-radius:70px;"  alt="Adarsh Shah"/>
+                                        <h3><a href="https://www.facebook.com/drsh.shah?fref=grp_mmbr_list" style="text-decoration: none;">Adarsh Shah</a></h3>
+                                        <p>Treasurer</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:adarsh@nitdgplug.org" style="text-decoration: none;">adarsh@nitdgplug.org</a></p>
+                                        <p><a href="tel:+919830993261 " style="text-decoration: none;">+91 9830993261 </a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm3">
+                        <img src="images/arijit.jpg" height="70" width="70" style="border-radius:70px;"  alt="Arijit Karmakar"/>
+                                        <h3>Arijit</br>Karmakar</h3>
+                                        <p>Convenor</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade bs-example-modal-sm3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/arijit.jpg" height="70" width="70" style="border-radius:70px;"  alt="Arijit Karmakar"/>
+                                        <h3><a href="https://www.facebook.com/arijit.karmakar.33?ref=ts&fref=ts" style="text-decoration: none;">Arijit Karmakar</a></h3>
+                                        <p>Convenor</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:arijit@nitdgplug.org" style="text-decoration: none;">arijit@nitdgplug.org</a></p>
+                                        <p><a href="tel:+91 8609130588" style="text-decoration: none;">+91  8609130588</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+
+
+                                
+
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
+                                    <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm4">
                         <img src="images/anomitra.jpg" height="70" width="70" style="border-radius:70px;"  alt="Anomitra Saha"/>
-                                        <h3>Anomitra Saha</h3>
+                                        <h3>Anomitra</br>Saha</h3>
                                         <p>Vice-President</p>
                                     </div>
-                                </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
-                                    <div class="onscroll-animate">
-                        <img src="images/sruti.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sruti Kumari"/>
-                                        <h3>Sruti Kumari</h3>
-                                        <p>Co-Convenor</p>
                                     </div>
                                 </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm4" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/anomitra.jpg" height="70" width="70" style="border-radius:70px;"  alt="Anomitra Saha"/>
+                                        <h3><a href="https://www.facebook.com/anomitra.saha" style="text-decoration: none;">Anomitra Saha</a></h3>
+                                        <p>Vice-President</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:anomitra1993@gmail.com" style="text-decoration: none;">anomitra1993@gmail.com</a></p>
+                                        <p><a href="tel:+918981728476" style="text-decoration: none;">+91 8981728476</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm5">
+                        <img src="images/abdur.jpg" height="70" width="70" style="border-radius:70px;"  alt="Abdur Rahman"/>
+                                        <h3>Abdur</br>Rahman</h3>
+                                        <p>CodeCracker Lead</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade bs-example-modal-sm5" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/abdur.jpg" height="70" width="70" style="border-radius:70px;"  alt="Abdur Rahman"/>
+                                        <h3><a href="https://www.facebook.com/thealphaking01" style="text-decoration: none;">Abdur Rahman</a></h3>
+                                        <p>CodeCracker Lead</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:anvg17@gmail.com " style="text-decoration: none;">anvg17@gmail.com </a></p>
+                                        <p><a href="tel:+919531827705" style="text-decoration: none;">+91 9531827705</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
+                                    <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm6">
                         <img src="images/archit.jpg" height="70" width="70" style="border-radius:70px;"  alt="Archit Srivastava"/>
-                                        <h3>Archit Srivastava</h3>
+                                        <h3>Archit</br>Srivastava</h3>
                                         <p>Technical Lead</p>
                                     </div>
-                                </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
-                                    <div class="onscroll-animate">
-                        <img src="images/suman.jpg" height="70" width="70" style="border-radius:70px;"  alt="Suman Senapati"/>
-                                        <h3>Suman Senapati</h3>
-                                        <p>Web Development Lead</p>
                                     </div>
                                 </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm6" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/archit.jpg" height="70" width="70" style="border-radius:70px;"  alt="Archit Srivastava"/>
+                                        <h3><a href="https://www.facebook.com/archit.sri" style="text-decoration: none;">Archit Srivastava</a></h3>
+                                        <p>Technical Lead</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:arch.srivastava.2@gmail.com" style="text-decoration: none;">arch.srivastava.2@gmail.com</a></p>
+                                        <p><a href="tel:+919871202933" style="text-decoration: none;">+91 9871202933</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm7">
+                        <img src="images/sruti.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sruti Kumari"/>
+                                        <h3>Sruti</br>Kumari</h3>
+                                        <p>Co-Convenor</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade bs-example-modal-sm7" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/sruti.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sruti Kumari"/>
+                                        <h3><a href="https://www.facebook.com/sruti.kumari.7" style="text-decoration: none;">Sruti Kumari</a></h3>
+                                        <p>Co-Convenor</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:sruti2593@gmail.com" style="text-decoration: none;">sruti2593@gmail.com</a></p>
+                                        <p><a href="tel:+919476306928" style="text-decoration: none;">+91 9476306928</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
+                                    <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm8">
+                        <img src="images/suman.jpg" height="70" width="70" style="border-radius:70px;"  alt="Suman Senapati"/>
+                                        <h3>Suman</br>Senapati</h3>
+                                        <p>Web Development Head</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade bs-example-modal-sm8" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/suman.jpg" height="70" width="70" style="border-radius:70px;"  alt="Suman Senapati"/>
+                                        <h3><a href="https://www.facebook.com/avio.s.here?hc_location=ufi" style="text-decoration: none;">Suman Senapati</a></h3>
+                                        <p>Web Development Head</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:anomitra1993@gmail.com" style="text-decoration: none;">anomitra1993@gmail.com</a></p>
+                                        <p><a href="tel:+918981728476" style="text-decoration: none;">+91 8981728476</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
+                                    <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm9">
                         <img src="images/ani.jpg" height="70" width="70" style="border-radius:70px;"  alt="Ani Dalal"/>
-                                        <h3>Ani Dalal</h3>
+                                        <h3>Ani</br>Dalal</h3>
                                         <p>Creative Lead</p>
                                     </div>
+                                    </div>
                                 </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm9" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/ani.jpg" height="70" width="70" style="border-radius:70px;"  alt="Ani Dalal"/>
+                                        <h3><a href="https://www.facebook.com/ani.dalal" style="text-decoration: none;">Ani Dalal</a></h3>
+                                        <p>Creative Lead</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:anomitra1993@gmail.com" style="text-decoration: none;">anomitra1993@gmail.com</a></p>
+                                        <p><a href="tel:+918981728476" style="text-decoration: none;">+91 8981728476</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm10">
                         <img src="images/keshav.jpg" height="70" width="70" style="border-radius:70px;"  alt="Keshav Baranwal"/>
-                                        <h3>Keshav Baranwal</h3>
+                                        <h3>Keshav</br>Baranwal</h3>
                                         <p>Co-Creative Lead</p>
                                     </div>
+                                    </div>
                                 </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm10" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/keshav.jpg" height="70" width="70" style="border-radius:70px;"  alt="Keshav Baranwal"/>
+                                        <h3><a href="https://www.facebook.com/keshav.k.baranwal?ref=ts&fref=ts" style="text-decoration: none;">Keshav Baranwal</a></h3>
+                                        <p>Co-Creative Lead</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:anomitra1993@gmail.com" style="text-decoration: none;">anomitra1993@gmail.com</a></p>
+                                        <p><a href="tel:+918981728476" style="text-decoration: none;">+91 8981728476</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm11">
                         <img src="images/veeraj.jpg" height="70" width="70" style="border-radius:70px;"  alt="Veeraj Pv"/>
-                                        <h3>Veeraj Pv</h3>
+                                        <h3>Veeraj</br>Pv</h3>
                                         <p>Sponsorship Lead</p>
                                     </div>
-                                </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
-                                    <div class="onscroll-animate">
-                        <img src="images/abdur.jpg" height="70" width="70" style="border-radius:70px;"  alt="Abdur Rahman"/>
-                                        <h3>Abdur Rahman</h3>
-                                        <p>Codecracker Lead</p>
                                     </div>
                                 </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm11" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/veeraj.jpg" height="70" width="70" style="border-radius:70px;"  alt="Veeraj Pv"/>
+                                        <h3><a href="https://www.facebook.com/veeraj.pv?ref=ts&fref=ts" style="text-decoration: none;">Veeraj Pv</a></h3>
+                                        <p>Sponsorship Lead</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:anomitra1993@gmail.com" style="text-decoration: none;">anomitra1993@gmail.com</a></p>
+                                        <p><a href="tel:+918981728476" style="text-decoration: none;">+91 8981728476</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm12">
                         <img src="images/sreya.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sreya Dutta Roy"/>
-                                        <h3>Sreya Dutta Roy</h3>
-                                        <p>Secretary,Public Relations</p>
+                                        <h3>Sreya</br>Dutta Roy</h3>
+                                        <p>Secretary</br>Public Relations</p>
+                                    </div>
                                     </div>
                                 </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm12" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/sreya.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sreya Dutta Roy"/>
+                                        <h3><a href="https://www.facebook.com/sreya.duttaroy?ref=ts&fref=ts" style="text-decoration: none;">Sreya Dutta Roy</a></h3>
+                                        <p>Secretary</br>Public Relations</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:berylsreya@gmail.com" style="text-decoration: none;">berylsreya@gmail.com</a></p>
+                                        <p><a href="tel:+919836471970" style="text-decoration: none;">+91 9836471970</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
-                        <img src="images/madhumita.jpg" height="70" width="70" style="border-radius:70px;"  alt="Madhumita Gopal "/>
-                                        <h3>Madhumita Gopal</h3>
-                                        <p>Secretary,Workshops and Events</p>
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm13">
+                        <img src="images/madhumita.jpg" height="70" width="70" style="border-radius:70px;"  alt="Madhumita Gopal"/>
+                                        <h3>Madhumita</br>Gopal</h3>
+                                        <p>Secretary</br>Workshops and Events</p>
+                                    </div>
                                     </div>
                                 </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-photo">
+                                <div class="modal fade bs-example-modal-sm13" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/madhumita.jpg" height="70" width="70" style="border-radius:70px;"  alt="Madhumita Gopal"/>
+                                        <h3><a href="https://www.facebook.com/madhumita.gopal.9" style="text-decoration: none;">Madhumita Gopal</a></h3>
+                                        <p>Secretary</br>Workshops and Events</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:anomitra1993@gmail.com" style="text-decoration: none;">anomitra1993@gmail.com</a></p>
+                                        <p><a href="tel:+918981728476" style="text-decoration: none;">+91 8981728476</a></p>
+                                        </div>
+                                        </div>
+                                </div>
+
+                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-print">
                                     <div class="onscroll-animate">
+                                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm14">
                         <img src="images/anisha.jpg" height="70" width="70" style="border-radius:70px;"  alt="Anisha Agarwal"/>
-                                        <h3>Anisha Agarwal</h3>
-                                        <p>Secretary,Campus Outreach</p>
+                                        <h3>Anisha</br>Agarwal</h3>
+                                        <p>Secretary</br>Campus Outreach</p>
                                     </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade bs-example-modal-sm14" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                        <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                        </br>
+                                        <img src="images/anisha.jpg" height="70" width="70" style="border-radius:70px;"  alt="Anisha Agarwal"/>
+                                        <h3><a href="https://www.facebook.com/agrawal.anisha?fref=ts" style="text-decoration: none;">Anisha Agarwal</a></h3>
+                                        <p>Secretary</br>Campus Outreach</p>
+                                        <p>4th Year</p>
+                                        <p><a href="mailto:anomitra1993@gmail.com" style="text-decoration: none;">anomitra1993@gmail.com</a></p>
+                                        <p><a href="tel:+918981728476" style="text-decoration: none;">+91 8981728476</a></p>
+                                        </div>
+                                        </div>
                                 </div>
 
-
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/surya.jpg" height="70" width="70" style="border-radius:70px;"  alt="Surya Kant Singh"/>
-                                        <h3>Surya Kant Singh</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/neetesh.jpg" height="70" width="70" style="border-radius:70px;"  alt="Neetesh Kumar"/>
-                                        <h3>Neetesh Kumar</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-man">
-                                    <div class="onscroll-animate">
-                                         <img src="images/arpits.jpg" height="70" width="70" style="border-radius:70px;"  alt="Arpit Singh"/>
-                                        <h3>Arpit Singh</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man">
-                                    <div class="onscroll-animate">
-                                         <img src="images/arpitj.jpg" height="70" width="70" style="border-radius:70px;"  alt="Arpit Jalan"/>
-                                        <h3>Arpit Jalan</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man">
-                                    <div class="onscroll-animate">
-                                         <img src="images/drishti.jpg" height="70" width="70" style="border-radius:70px;"  alt="Drishti Agarwal"/>
-                                        <h3>Drishti Agarwal</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work  work-photo">
-                                    <div class="onscroll-animate">
-                                         <img src="images/pragya.jpg" height="70" width="70" style="border-radius:70px;"  alt="Pragya Anand"/>
-                                        <h3>Pragya Anand</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                                         <img src="images/shaunak.jpg" height="70" width="70" style="border-radius:70px;"  alt="Shaunak Sen"/>
-                                        <h3>Shaunak Sen</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-photo">
-                                    <div class="onscroll-animate">
-                         <img src="images/rashmi.jpg" height="70" width="70" style="border-radius:70px;"  alt="Rashmi Kumari"/>                
-                                        <h3>Rashmi Kumari</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                         <img src="images/archita.jpg" height="70" width="70" style="border-radius:70px;"  alt="Archita Surai"/>                
-                                        <h3>Archita Surai</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                         <img src="images/abhijeet.jpg" height="70" width="70" style="border-radius:70px;"  alt="Abhijeet Padhy"/>                
-                                        <h3>Abhijeet Padhy</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man work-tech">
-                                    <div class="onscroll-animate">
-                        <img src="images/avinash.jpg" height="70" width="70" style="border-radius:70px;"  alt="Avinash Kumar"/>
-                                        <h3>Avinash Kumar</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                        <img src="images/sammita.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sammita Chakravarti"/>
-                                        <h3>Sammita Chakravarti</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                        <img src="images/shaswat.jpg" height="70" width="70" style="border-radius:70px;"  alt="Shaswat Gupta"/>
-                                        <h3>Shaswat Gupta</h3>
-                                        <p>3rd year</p>
-                                    </div>
-                                </div>
-                                 <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                        <img src="images/bishakh.jpg" height="70" width="70" style="border-radius:70px;"  alt="Bishakh Ghosh"/>
-                                        <h3>Bishakh Chandra Ghosh</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
                                 
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/somesh.jpg" height="70" width="70" style="border-radius:70px;"  alt="Somesh Khandelia"/>
-                                        <h3>Somesh Khandelia</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/sudeshna.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sudeshna Das"/>
-                                        <h3>Sudeshna Das</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/arijitc.jpg" height="70" width="70" style="border-radius:70px;"  alt="Arijit Chatterjee"/>
-                                        <h3>Arijit Chatterjee</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
                                
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/shramana.jpg" height="70" width="70" style="border-radius:70px;"  alt="Shramana Patra"/>
-                                        <h3>Shramana Patra</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                        <img src="images/adarshs.jpg" height="70" width="70" style="border-radius:70px;"  alt="Adarsh Singh"/>
-                                        <h3>Adarsh Singh</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                        <img src="images/arka.jpg" height="70" width="70" style="border-radius:70px;"  alt="Arka Roy"/>
-                                        <h3>Arka Roy</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/sneh.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sneh Smriti"/>
-                                        <h3>Sneh Smriti</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-photo">
-                                    <div class="onscroll-animate">
-                        <img src="images/sneha.jpg" height="70" width="70" style="border-radius:70px;"  alt="Sneha Singh"/>
-                                        <h3>Sneha Singh</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/ananya.jpg" height="70" width="70" style="border-radius:70px;"  alt="Ananya Yashasvi"/>
-                                        <h3>Ananya Yashasvi</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-photo">
-                                    <div class="onscroll-animate">
-                        <img src="images/debanjan.jpg" height="70" width="70" style="border-radius:70px;"  alt="Debanjan Saha"/>
-                                        <h3>Debanjan Saha</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/avirup.jpg" height="70" width="70" style="border-radius:70px;"  alt="Avirup Mukherjee"/>
-                                        <h3>Avirup Mukherjee</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-tech">
-                                    <div class="onscroll-animate">
-                        <img src="images/aman.jpg" height="70" width="70" style="border-radius:70px;"  alt="Aman Deep"/>
-                                        <h3>Aman Deep</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-12 work work-man">
-                                    <div class="onscroll-animate">
-                        <img src="images/piyush.jpg" height="70" width="70" style="border-radius:70px;"  alt="Piyush Agrawal"/>
-                                        <h3>Piyush Agrawal</h3>
-                                        <p>2nd year</p>
-                                    </div>
-                                </div>
 
+
+                               
                                
                             </div><!-- .row -->
                         </div><!-- #works -->
                         
                         <div class="margin-40"></div>
-                        
+                        <div  type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-lg">
                         <p class="text-center text-smaller">See the whole team</p>
                         <p class="text-center">
-                            <a href="#"><i class="icon-button-big glyphicon glyphicon-plus"></i></a>
+                           <i class="icon-button-big glyphicon glyphicon-plus"></i>
                         </p>
-
-
-
-
-
-
+                    </div>
                     </div><!-- .container -->
                 </div>
                         <header class="header center onscroll-animate">
@@ -869,6 +937,177 @@
         </div><!-- #content -->
     </div><!-- #all -->
     
+
+
+<!------------------- Modal Body for 2nd and 3rd year ---------------------------------->
+
+                                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                    <div class="modal-dialog modal-lg"  style="width:85%;">
+                                        <div class="modal-content">
+                                            <div class="row">
+
+
+
+
+                                 <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <h6>&nbsp;&nbsp;<a href="https://www.facebook.com/kaalvirus?ref=ts&fref=ts"><img src="images/surya.jpg" height="60" width="60" style="border-radius:60px;"  alt="Surya Kant Singh"/>&nbsp;&nbsp;Surya Kant Singh</a></h6>
+                                    </div>
+                            </div>
+
+
+                                 <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/kumarneetesh24?ref=ts&fref=ts"><h6><img src="images/neetesh.jpg" height="60" width="60" style="border-radius:60px;"  alt="Neetesh Kumar"/>&nbsp;&nbsp;Neetesh Kumar</h6></a>
+                                    </div>
+                            </div>
+
+
+                                 <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/singharpit94?ref=ts&fref=ts"><h6><img src="images/arpits.jpg" height="60" width="60" style="border-radius:60px;"  alt="Arpit Singh"/>&nbsp;&nbsp;Arpit Singh</h6></a>
+                                    </div>
+                            </div>
+                                 <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/ASJ065?ref=ts&fref=ts"><h6><img src="images/arpitj.jpg" height="60" width="60" style="border-radius:60px;"  alt="Arpit Jalan"/>&nbsp;&nbsp;Arpit Jalan</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/drishti.agarwal.39?ref=ts&fref=ts"><h6><img src="images/drishti.jpg" height="60" width="60" style="border-radius:60px;"  alt="Drishti Agarwal"/>&nbsp;&nbsp;Drishti Agarwal</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/pragya.anand2754?ref=ts&fref=ts"><h6><img src="images/pragya.jpg" height="60" width="60" style="border-radius:60px;"  alt="Pragya Anand"/>&nbsp;&nbsp;Pragya Anand</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/shaunak.sen.54?ref=ts&fref=ts"><h6><img src="images/shaunak.jpg" height="60" width="60" style="border-radius:60px;"  alt="Shaunak Sen"/>&nbsp;&nbsp;Shaunak Sen</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/profile.php?id=100007504818303&ref=ts&fref=ts"><h6><img src="images/rashmi.jpg" height="60" width="60" style="border-radius:60px;"  alt="Rashmi Kumari"/>&nbsp;&nbsp;Rashmi Kumari</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/archita.surai?ref=ts&fref=ts"><h6><img src="images/archita.jpg" height="60" width="60" style="border-radius:60px;"  alt="Archita Surai"/>&nbsp;&nbsp;Archita Surai</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/abhijeet.padhy?ref=ts&fref=ts"><h6><img src="images/abhijeet.jpg" height="60" width="60" style="border-radius:60px;"  alt="Abhijeet Padhy"/>&nbsp;&nbsp;Abhijeet Padhy</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/AVINASHKE1?ref=ts&fref=ts"><h6><img src="images/avinash.jpg" height="60" width="60" style="border-radius:60px;"  alt="Avinash Kumar"/>&nbsp;&nbsp;Avinash Kumar</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/sammita.chakravarti?ref=ts&fref=ts"><h6><img src="images/sammita.jpg" height="60" width="60" style="border-radius:60px;"  alt="Sammita Chakravarti"/>&nbsp;&nbsp;Sammita</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/shaswat.gupta?ref=ts&fref=ts"><h6><img src="images/shaswat.jpg" height="60" width="60" style="border-radius:60px;"  alt="Shaswat Gupta"/>&nbsp;&nbsp;Shaswat Gupta</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="#"><h6><img src="images/bishakh.jpg" height="60" width="60" style="border-radius:60px;"  alt="Bishakh Ghosh"/>&nbsp;&nbsp;Bishakh Ghosh</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/somesh.khandelia.9"><h6><img src="images/somesh.jpg" height="60" width="60" style="border-radius:60px;"  alt="Somesh Khandelia"/>&nbsp;&nbsp;Somesh Khandelia</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/essdee.sud?ref=ts&fref=ts"><h6><img src="images/sudeshna.jpg" height="60" width="60" style="border-radius:60px;"  alt="Sudeshna Das"/>&nbsp;&nbsp;Sudeshna Das</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/ArijitChatterjee13?ref=ts&fref=ts"><h6><img src="images/arijitc.jpg" height="60" width="60" style="border-radius:60px;"  alt="Arijit Chatterjee"/>&nbsp;&nbsp;Arijit Chatterjee</h6></a>
+                                    </div>
+                            </div>
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/shramana.patra.5?ref=ts&fref=ts"><h6><img src="images/shramana.jpg" height="60" width="60" style="border-radius:60px;"  alt="Shramana Patra"/>&nbsp;&nbsp;Shramana Patra</h6></a>
+                                    </div>
+                            </div>
+
+                             <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/nxtbig?ref=ts&fref=ts"><h6><img src="images/adarshs.jpg" height="60" width="60" style="border-radius:60px;"  alt="Adarsh Singh"/>&nbsp;&nbsp;Adarsh Singh</h6></a>
+                                    </div>
+                            </div>
+
+                             <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/mailtoarko?ref=ts&fref=ts"><h6><img src="images/arka.jpg" height="60" width="60" style="border-radius:60px;"  alt="Arka Roy"/>&nbsp;&nbsp;Arka Roy</h6></a>
+                                    </div>
+                            </div>
+
+                             <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/profile.php?id=100005591354744&ref=ts&fref=ts"><h6><img src="images/sneh.jpg" height="60" width="60" style="border-radius:60px;"  alt="Sneh Smriti"/>&nbsp;&nbsp;Sneh Smriti</h6></a>
+                                    </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/jennifer.andrews.7587?ref=ts&fref=ts"><h6><img src="images/ananya.jpg" height="60" width="60" style="border-radius:60px;"  alt="Ananya Yashasvi"/>&nbsp;&nbsp;Ananya Yashasvi</h6></a>
+                                    </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/debanjan.ck?ref=ts&fref=ts"><h6><img src="images/debanjan.jpg" height="60" width="60" style="border-radius:60px;"  alt="Debanjan Saha"/>&nbsp;&nbsp;Debanjan Saha</h6></a>
+                                    </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/profile.php?id=100000376768789&ref=ts&fref=ts"><h6><img src="images/sneha.jpg" height="60" width="60" style="border-radius:60px;"  alt="Sneha Singh"/>&nbsp;&nbsp;Sneha Singh</h6></a>
+                                    </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/amandeep1024?ref=ts&fref=ts"><h6><img src="images/aman.jpg" height="60" width="60" style="border-radius:60px;"  alt="Aman Deep"/>&nbsp;&nbsp;Aman Deep</h6></a>
+                                    </div>
+                            </div>
+
+                            <div class="col-xs-6 col-md-2">
+                                    <div class="onscroll-animate">
+                                        <a href="https://www.facebook.com/happypiyush?ref=ts&fref=ts"><h6><img src="images/piyush.jpg" height="60" width="60" style="border-radius:60px;"  alt="Piyush Agrawal"/>&nbsp;&nbsp;Piyush Agrawal</h6></a>
+                                    </div>
+                            </div>
+
+
+
+
+
+
+
+
+                            </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
+
+
+
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
