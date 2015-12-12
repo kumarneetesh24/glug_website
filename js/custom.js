@@ -3,6 +3,9 @@
 'use strict';
 
 $(document).ready(function(e) {
+	$('#pre-status').fadeOut();
+    $('#tt-preloader').delay(350).fadeOut('slow');
+
 	$('#main-menu-button, #main-menu-close').click(function(e) {
 		e.preventDefault();
 
