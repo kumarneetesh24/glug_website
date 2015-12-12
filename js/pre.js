@@ -1,9 +1,9 @@
 jQuery(function ($) {
 
     'use strict';
-    $(window).ready(function() {
+    $(window).load(function() {
         $('#pre-status').fadeOut();
-        $('#tt-preloader').delay(350).fadeOut('slow');
+        $('#tt-preloader').delay(10).fadeOut('slow');
         $('.mylogo1').attr("id","main-logo1");
 	    $('.mylogo2').attr("id","main-logo2");
 	    $('#main-logo1').attr("src","images/club_logo.png");
